@@ -2,7 +2,10 @@ class PortfoliosController < ApplicationController
   def index
     @portfolio_items = Portfolio.all
   end
-
+  def angular
+    @angular_portfolio_itmes = Portfolio.angular
+    
+  end
     def new
      @portfolio_item = Portfolio.new
     end
@@ -41,9 +44,9 @@ class PortfoliosController < ApplicationController
       #Destory the record
       @portfolio_item.destroy
       #Redirect
-    respond_to do |format|
-      format.html { redirect_to portfolio_url, notice: 'Record was removed' }
-      format.json { head :no_content }
+      respond_to do |format|
+        format.html { redirect_to portfolio_url, notice: 'Record was removed' }
+        format.json { head :no_content }
+      end
     end
-  end
 end
