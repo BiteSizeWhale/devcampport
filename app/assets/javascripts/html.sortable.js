@@ -1,5 +1,3 @@
-alert("I'm a dumb person, but I am also lovely.");
-
 ;(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
