@@ -2,7 +2,7 @@
 > This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 ### Features
 
-- Real time chat engine for comments
+- Real time chat engine for 
 - Blog
 - Portfolio
 - Drag and drop interface
@@ -22,7 +22,7 @@ application up and running.
 > This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 ### Features
 
-- Real time chat engine for comments
+- Real time chat engine for 
 - Blog
 - Portfolio
 - Drag and drop interface
